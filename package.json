@@ -1,0 +1,23 @@
+{
+  "name": "better-version-codealong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toska75/better-version-codealong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toska75/better-version-codealong/issues"
+  },
+  "homepage": "https://github.com/Toska75/better-version-codealong#readme",
+  "dependencies": {
+    "date-fns": "^2.22.1"
+  }
+}
