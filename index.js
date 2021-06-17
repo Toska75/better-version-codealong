@@ -1,7 +1,6 @@
 // Hello world
 // Comment 1
 
-
 //In the browser
 
 //Additional Info
@@ -27,3 +26,7 @@ dates.sort(compareAsc);
 // ]
 
 console.log('These are the dates:', dates);
+
+const chalk = require('chalk');
+
+console.log(chalk.blue('Hello world!'));
