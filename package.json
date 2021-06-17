@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Toska75/better-version-codealong#readme",
   "dependencies": {
     "chalk": "^4.1.1",
-    "date-fns": "^2.22.1"
+    "date-fns": "^2.22.1",
+    "got": "^11.8.2"
   }
 }

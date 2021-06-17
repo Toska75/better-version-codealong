@@ -30,3 +30,16 @@ console.log('These are the dates:', dates);
 const chalk = require('chalk');
 
 console.log(chalk.blue('Hello world!'));
+
+const got = require('got');
+
+(async () => {
+  try {
+    const response = await got('https://sindresorhus.com');
+    console.log(response.body);
+    //=> '<!doctype html> ...'
+  } catch (error) {
+    console.log(error.response.body);
+    //=> 'Internal server error ...'
+  }
+})();
